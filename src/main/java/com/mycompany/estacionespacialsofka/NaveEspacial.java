@@ -10,6 +10,10 @@ public class NaveEspacial {
     String destinoFinal;
 
     //Constructor NaveEspacial
+    public NaveEspacial(){
+        
+    }
+    
     public NaveEspacial(int idNave, String nombreNave, String tipoNave, int peso, String combustible, String destinoFinal) {
         this.idNave = idNave;
         this.nombreNave = nombreNave;

@@ -15,5 +15,9 @@ public class EstacionEspacialSofka {
         
         NaveEspacial nave1 = new NaveEspacial(1, "Vision", "Lanzadera", 100, "Petroleo", "Luna");
         System.out.println("El nombre de la nave espacial es: " + nave1.getNombreNave());
+        
+        NaveEspacialTripulada tripu = new NaveEspacialTripulada();
+        tripu.setNombreNave("NaveTripulada");
+        System.out.println(tripu.getNombreNave());
     }
 }
